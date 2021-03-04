@@ -29,10 +29,10 @@ export const ContentLeft = styled.div`
 
       li{
         margin-top: 0.8rem; 
-        padding: 2rem 2rem 2rem 0;
+        padding: 1.6rem 1.6rem 1.6rem 0;
 
         list-style: none;
-        background: #723100;
+        background: rgba(114, 49, 0, 0.5);
 
         a{
           color: #fff;
@@ -50,6 +50,7 @@ export const ContentLeft = styled.div`
           :hover{
             cursor: pointer;
             margin-left: 0vw;
+            background: rgba(114, 49, 0, 0.9);
           }
         }
 
@@ -63,6 +64,8 @@ export const ContentLeft = styled.div`
           :hover{
             cursor: pointer;
             margin-left: 0vw;
+
+            background: rgba(114, 49, 0, 0.9);
           }
         }
 
@@ -76,6 +79,8 @@ export const ContentLeft = styled.div`
           :hover{
             cursor: pointer;
             margin-left: 0vw;
+
+            background: rgba(114, 49, 0, 0.9);
           }
         }
 
@@ -89,6 +94,8 @@ export const ContentLeft = styled.div`
           :hover{
             cursor: pointer;
             margin-left: 0vw;
+
+            background: rgba(114, 49, 0, 0.9);
           }
         }
       }
