@@ -122,13 +122,12 @@ export const Center = styled.div`
 export const ContentRight = styled.div`
   width: 25%;
   min-height: 100%;
+  padding-right: 10rem;
 
   img{
     width: 100%;
     height: auto;
     margin-top: -4vh;
-    margin-left: -3vw;
-
     object-fit: contain;
   }
 `;
