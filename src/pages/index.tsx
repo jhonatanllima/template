@@ -1,20 +1,25 @@
 import {
   Event,
-  Header
+  Header,
+  MenuItems
 } from '../components/index';
 
 
 import { 
   Wrapper,
-  Container 
+  Container,
+  SectionHome,
 } from '../styles/pages/Index';
 
 export default function Home() {
   return (
     <Container>
       <Wrapper>
-        <Header />
-        <Event />
+        <SectionHome>
+          <Header />
+          <Event />
+          <MenuItems />
+        </SectionHome>
       </Wrapper>
     </Container>
   )
