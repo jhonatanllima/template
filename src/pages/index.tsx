@@ -1,18 +1,22 @@
 import {
   Event,
   Header,
-  MenuItems
+  MenuItems,
+  LiveVideo,
 } from '../components/index';
 
 
 import { 
   Wrapper,
   Container,
+  Background,
   SectionHome,
 } from '../styles/pages/Index';
 
 export default function Home() {
   return (
+    <>
+    <Background />
     <Container>
       <Wrapper>
         <SectionHome>
@@ -20,7 +24,10 @@ export default function Home() {
           <Event />
           <MenuItems />
         </SectionHome>
+
+        <LiveVideo />
       </Wrapper>
     </Container>
+    </>
   )
 }

@@ -6,22 +6,6 @@ export default createGlobalStyle`
     padding: 0;
     box-sizing: border-box;
   }
-  /* :root  {
-    --white: #fff;
-    --background: #1A202C;
-    --background-card: #2D3748;
-    --gray-line: #dcdde0;
-    --text: #E2E8F0;
-    --text-highlight: #9F7AEA;
-    --title: #9DAABC;
-    --red: #e83f5b;
-    --green: #4cd62b;
-    --blue: #667EEA;
-    --blue-dark: #4953b8;
-    --blue-twitter: #2aa9e0;
-    --border-box: #5A67D8;
-    --border-grey: #718096;
-  } */
   body{
     color: #333333;
    }
