@@ -10,6 +10,7 @@ import {
 export function LiveVideo(){
   return(
     <Container>
+
       <ContentLeft>
         <button>
           <BiPlayCircle className="iconButton"/>

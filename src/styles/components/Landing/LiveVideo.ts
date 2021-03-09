@@ -97,7 +97,7 @@ export const Center = styled.div`
 export const ContentRight = styled.div`
   width: 20%;
   height: auto;
-  padding-right: 3rem;
+  padding-right: 10rem;
 
   display: flex;
   flex-direction: column;
