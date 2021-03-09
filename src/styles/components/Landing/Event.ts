@@ -27,7 +27,7 @@ export const ContentLeft = styled.div`
       height: auto;
 
       li{
-        margin-top: 0.8rem; 
+        margin-top: 0.6rem; 
         padding: 1.6rem 1.6rem 1.6rem 0;
 
         list-style: none;

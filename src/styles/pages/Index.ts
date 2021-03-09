@@ -11,7 +11,7 @@ export const Background = styled.div`
   align-items: center;
   justify-content: center;
 
-  background-size: cover  ;
+  background-size: cover;
   background-repeat: no-repeat;
   background-image: url('assets/background/background.png');
 `;
@@ -27,8 +27,8 @@ export const Container = styled.div`
 
 export const Wrapper = styled.div`
   width: 100%;
-  max-width: 1920px;
   height: auto;
+  max-width: 1920px;
 
   display: flex;
   align-items: center;
