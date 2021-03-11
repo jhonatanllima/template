@@ -12,6 +12,20 @@ export default createGlobalStyle`
   html{
       font-size: 62.5%;
     }
+  
+  @media (max-width: 1440px){
+    html{
+      font-size: 46.75%;
+    }
+  }
+
+    
+  @media (max-width: 1024px){
+    html{
+      font-size: 38.75%;
+    }
+  }
+
   @media (max-width: 1080px){
     html{
       /* font-size: 93.75%; */

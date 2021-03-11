@@ -2,14 +2,16 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   width: 100%;
-  height: 66vh;
+  height: 75vh;
+  min-height: 60rem; 
 
   display: flex;
+  align-items: center;
+  justify-content: center;
 `;
 
 export const ContentLeft = styled.div`
-  width: 25%;
-  min-height: 100%;
+  width: 20%;
 
   display: flex;
   align-items: center;
@@ -34,19 +36,26 @@ export const ContentLeft = styled.div`
         background: rgba(114, 49, 0, 0.5);
 
         a{
+          padding: 1.2rem 2rem;
+
           color: #fff;
-          font-size: 2rem;
+          transition: 0.4s;
+          font-size: 2.5rem;
           margin-left: 7rem;
+          :hover{
+            margin-left: 9rem;
+          }
         }
 
         :first-child{
           width: 70%;
-          margin-left: -1.5vw;
           border-radius: 0 100px 100px 0;
 
           transition: 0.2s;
 
           :hover{
+            width: 80%;
+
             cursor: pointer;
             margin-left: 0vw;
             background: rgba(114, 49, 0, 0.9);
@@ -55,12 +64,13 @@ export const ContentLeft = styled.div`
 
         :nth-child(2){
           width: 60%;
-          margin-left: -1.5vw;
           border-radius: 0 100px 100px 0;
 
           transition: 0.2s;
 
           :hover{
+            width: 70%;
+
             cursor: pointer;
             margin-left: 0vw;
 
@@ -70,12 +80,13 @@ export const ContentLeft = styled.div`
 
         :nth-child(3){
           width: 90%;
-          margin-left: -1.5vw;
           border-radius: 0 100px 100px 0;
 
           transition: 0.2s;
 
           :hover{
+            width: 98%;
+
             cursor: pointer;
             margin-left: 0vw;
 
@@ -85,12 +96,13 @@ export const ContentLeft = styled.div`
 
         :last-child{
           width: 70%;
-          margin-left: -1.5vw;
           border-radius: 0 100px 100px 0;
 
           transition: 0.2s;
 
           :hover{
+            width: 80%;
+            
             cursor: pointer;
             margin-left: 0vw;
 
@@ -103,7 +115,7 @@ export const ContentLeft = styled.div`
 `;
 
 export const Center = styled.div`
-  width: 50%;
+  width: 60%;
   min-height: 100%;
 
   display: flex;
@@ -119,7 +131,7 @@ export const Center = styled.div`
 `;
 
 export const ContentRight = styled.div`
-  width: 25%;
+  width: 20%;
   min-height: 100%;
   padding-right: 10rem;
 

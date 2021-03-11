@@ -1,7 +1,8 @@
 import { BiPlayCircle } from 'react-icons/bi';
 
 import {
-  Center, 
+  Center,
+  Wrapper,
   Container,
   ContentLeft,
   ContentRight,
@@ -10,7 +11,9 @@ import {
 export function LiveVideo(){
   return(
     <Container>
-
+        <h3>Acompanhe o evento</h3>
+        <h1>Ao vivo</h1>
+      <Wrapper>
       <ContentLeft>
         <button>
           <BiPlayCircle className="iconButton"/>
@@ -19,10 +22,7 @@ export function LiveVideo(){
       </ContentLeft>
 
       <Center>
-        <h3>Acompanhe o evento</h3>
-        <h1>Ao vivo</h1>
-
-        <div>
+         <div>
           <iframe width="100%" height="100%" src="https://www.youtube.com/embed/a_nthSs7090" 
           frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
           allowFullScreen />
@@ -36,6 +36,7 @@ export function LiveVideo(){
           meu Deus que legal.
         </p>
       </ContentRight>
+      </Wrapper>  
     </Container>
   )
 }

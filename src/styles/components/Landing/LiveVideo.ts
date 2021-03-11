@@ -3,16 +3,43 @@ import styled from 'styled-components';
 export const Container = styled.div`
   width: 100%;
   height: 100vh;
-  max-width: 1920px;
+  min-height: 80rem;
 
   display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
 
   background: transparent radial-gradient(closest-side at 50% 50%, rgba(106, 52, 16, 0.5) 0%, rgba(21, 14, 8, 0.5) 100%) 0% 0% no-repeat padding-box;
+
+  h3{
+    color: #b28b72;
+    font-size: 2.3rem;
+    line-height: 1;
+    letter-spacing: 0.5rem;
+    text-transform: uppercase;
+  }
+
+  h1{
+
+    color: #f5d697;
+    line-height: 1;
+    font-size: 9rem;
+    letter-spacing: 0.5rem;
+    text-transform: uppercase;
+  }
+`;
+
+export const Wrapper = styled.div`
+  width: 100%;
+  height: 70%;
+
+  display: flex;
 `;
 
 export const ContentLeft = styled.div`
   width: 20%;
-  height: auto;
+  height: 100%;
   padding: 1rem;
 
   display: flex;
@@ -61,25 +88,6 @@ export const Center = styled.div`
   align-items: center;
   flex-direction: column;
   justify-content: center;
-
-  h3{
-    color: #b28b72;
-    margin-top: -8rem;
-    font-size: 2.3rem;
-    line-height: 1;
-    letter-spacing: 0.5rem;
-    text-transform: uppercase;
-  }
-
-  h1{
-    margin-bottom: 2rem;
-
-    color: #f5d697;
-    line-height: 1;
-    font-size: 9rem;
-    letter-spacing: 0.5rem;
-    text-transform: uppercase;
-  }
 
   div{
     width: 90%;

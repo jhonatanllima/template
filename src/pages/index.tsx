@@ -19,13 +19,15 @@ export default function Home() {
     <Background />
     <Container>
       <Wrapper>
+
         <SectionHome>
           <Header />
           <Event />
-          <MenuItems />
-        </SectionHome>
+          <MenuItems /> 
+        </SectionHome> 
 
-        <LiveVideo />
+        <LiveVideo /> 
+        
       </Wrapper>
     </Container>
     </>

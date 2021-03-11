@@ -2,8 +2,9 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   width: 100%;
-  height: 14vh;
+  height: 12vh;
   padding: 0 10rem;
+  min-height: 8rem;
 
   display: flex;
   align-items: center;
