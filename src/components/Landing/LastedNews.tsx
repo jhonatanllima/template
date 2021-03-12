@@ -53,7 +53,94 @@ export function LastedNews(){
             </section>
           </main>
       </ContentTop>
-      <ContentFooter />
+
+      <ContentFooter >
+        <main>
+          <section>
+            <header>
+              <img src="https://abqm.com.br/abqm_site/img/content_files/aerea---aracatuba_0.134284001615417347_0.755933001615417377.jpg" alt=""/>
+            </header>
+
+            <footer>
+              <span>
+                15 de novembro de 2019
+              </span>
+
+              <h3>Conheça as mudanças no novo Regulamento do Serviço de Registro Genealógico</h3>                  
+            </footer>
+          </section>
+
+          <section>
+            <header>
+              <img src="https://abqm.com.br/abqm_site/img/content_files/aerea---aracatuba_0.134284001615417347_0.755933001615417377.jpg" alt=""/>
+            </header>
+
+            <footer>
+              <span>
+                15 de novembro de 2019
+              </span>
+
+              <h3>Conheça as mudanças no novo Regulamento do Serviço de Registro Genealógico</h3>                  
+            </footer>
+          </section>
+
+          <section>
+            <header>
+              <img src="https://abqm.com.br/abqm_site/img/content_files/aerea---aracatuba_0.134284001615417347_0.755933001615417377.jpg" alt=""/>
+            </header>
+
+            <footer>
+              <span>
+                15 de novembro de 2019
+              </span>
+
+              <h3>Conheça as mudanças no novo Regulamento do Serviço de Registro Genealógico</h3>                  
+            </footer>
+          </section>
+
+          <section>
+            <header>
+              <img src="https://abqm.com.br/abqm_site/img/content_files/aerea---aracatuba_0.134284001615417347_0.755933001615417377.jpg" alt=""/>
+            </header>
+
+            <footer>
+              <span>
+                15 de novembro de 2019
+              </span>
+
+              <h3>Conheça as mudanças no novo Regulamento do Serviço de Registro Genealógico</h3>                  
+            </footer>
+          </section>
+
+          <section>
+            <header>
+              <img src="https://abqm.com.br/abqm_site/img/content_files/aerea---aracatuba_0.134284001615417347_0.755933001615417377.jpg" alt=""/>
+            </header>
+
+            <footer>
+              <span>
+                15 de novembro de 2019
+              </span>
+
+              <h3>Conheça as mudanças no novo Regulamento do Serviço de Registro Genealógico</h3>                  
+            </footer>
+          </section>
+
+          <section>
+            <header>
+              <img src="https://abqm.com.br/abqm_site/img/content_files/aerea---aracatuba_0.134284001615417347_0.755933001615417377.jpg" alt=""/>
+            </header>
+
+            <footer>
+              <span>
+                15 de novembro de 2019
+              </span>
+
+              <h3>Conheça as mudanças no novo Regulamento do Serviço de Registro Genealógico</h3>                  
+            </footer>
+          </section> 
+        </main>
+      </ContentFooter>
     </Container>
   )
 }

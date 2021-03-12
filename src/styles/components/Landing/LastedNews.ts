@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const Container = styled.div`
   width: 100%;
   height: 100vh;
-  min-height: 80rem;
+  min-height: 85rem;
 
   display: flex;
   align-items: center;
@@ -18,7 +18,7 @@ export const Container = styled.div`
 
 export const ContentTop = styled.div`
   width: 100%;
-  height: 70%;
+  height: 65%;
 
   display: flex;
   align-items: center;
@@ -44,9 +44,9 @@ export const ContentTop = styled.div`
     justify-content: center;
 
     section{
-      width: 50rem;
-      height: 40rem;
-      border-radius: 8px 8px 0 0;
+      width: 45rem;
+      max-height: 45rem;
+      border-radius: 12px 12px 0 0;
 
       background: #2c190b;
 
@@ -58,7 +58,7 @@ export const ContentTop = styled.div`
         img{
           width: 100%;
           height: 100%;
-          border-radius: 8px 8px 0 0 ;  
+          border-radius: 12px 12px 0 0;
 
           object-fit: cover;
           transition: 0.2s;
@@ -96,5 +96,60 @@ export const ContentTop = styled.div`
 
 export const ContentFooter = styled.div`
   width: 100%;
-  height: 30%;
+  height: 35%;
+
+  main{
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    section{
+      width: 22rem;
+      max-height: 28rem;
+      border-radius: 8px 8px 0 0;
+
+      header{
+        width: 100%;
+        height: 50%;
+        border-radius: 8px 8px 0 0 ;
+
+        img{
+          width: 100%;
+          height: 100%;
+          border-radius: 8px 8px 0 0 ;  
+
+          object-fit: cover;
+          transition: 0.2s;
+        }
+      }
+
+      footer{
+        width: 100%;
+        height: 60%;
+        padding-top: 1.5rem;
+
+        span{
+          color: #b28b72;
+          font-size: 1.8rem;
+          line-height: 0.89;
+        }
+
+        h3{ 
+          margin-top: 1rem;
+
+          color: #b28b72;
+          line-height: 1.22;
+          font-size: 2rem;
+          text-transform: uppercase;
+        }
+      }
+
+      + section {
+        margin-left: 4rem;
+      }
+    }
+  }
 `;
