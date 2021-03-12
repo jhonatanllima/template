@@ -1,8 +1,9 @@
 import {
   Event,
   Header,
-  MenuItems,
   LiveVideo,
+  MenuItems,
+  LastedNews,
 } from '../components/index';
 
 
@@ -26,7 +27,8 @@ export default function Home() {
           <MenuItems /> 
         </SectionHome> 
 
-        <LiveVideo /> 
+        <LiveVideo />
+        <LastedNews /> 
         
       </Wrapper>
     </Container>
