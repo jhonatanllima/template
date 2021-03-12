@@ -107,8 +107,8 @@ export const ContentFooter = styled.div`
     justify-content: center;
 
     section{
-      width: 22rem;
-      max-height: 28rem;
+      width: 20rem;
+      max-height: 26rem;
       border-radius: 8px 8px 0 0;
 
       header{
@@ -142,7 +142,7 @@ export const ContentFooter = styled.div`
 
           color: #b28b72;
           line-height: 1.22;
-          font-size: 2rem;
+          font-size: 1.6rem;
           text-transform: uppercase;
         }
       }

@@ -40,8 +40,8 @@ export const Container = styled.div`
     }
 
     img{
-      width: 7rem;
-      height: 5rem;
+      width: 6rem;
+      height: 4rem;
       margin-left: 1rem;
     }
   }
