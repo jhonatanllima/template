@@ -1,6 +1,7 @@
 import {
   Event,
   Header,
+  Footer,
   LiveVideo,
   MenuItems,
   LastedNews,
@@ -29,7 +30,7 @@ export default function Home() {
 
         <LiveVideo />
         <LastedNews /> 
-        
+        <Footer />
       </Wrapper>
     </Container>
     </>
