@@ -11,7 +11,7 @@ export const Container = styled.div`
   justify-content: space-between;
 
   img{
-    width: 13rem;
+    width: 17rem;
     height: auto;
   }
 
@@ -21,12 +21,12 @@ export const Container = styled.div`
     justify-content: center;
 
     color: #d3a384;
-    font-size: 2rem;
+    font-size: 2.5rem;
     text-transform: uppercase;
     
     img{
-      width: 2rem;
-      height: 2rem;
+      width: 2.5rem;
+      height: 2.5rem;
       margin: 0.5rem;
     }
   }

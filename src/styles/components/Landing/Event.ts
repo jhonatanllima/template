@@ -29,6 +29,10 @@ export const ContentLeft = styled.div`
       height: auto;
 
       li{
+        display: flex;
+        align-items: center;
+
+        height: 8rem;
         margin-top: 0.6rem; 
         padding: 1.6rem 1.6rem 1.6rem 0;
 
@@ -41,20 +45,24 @@ export const ContentLeft = styled.div`
           color: #fff;
           transition: 0.4s;
           font-size: 2.5rem;
-          margin-left: 7rem;
+          margin-left: 5rem;
+          padding-right: 3rem;
+
+          text-transform: uppercase;
+
           :hover{
-            margin-left: 9rem;
+            margin-left: 6rem;
           }
         }
 
         :first-child{
-          width: 70%;
+          width: 80%;
           border-radius: 0 100px 100px 0;
 
           transition: 0.2s;
 
           :hover{
-            width: 80%;
+            width: 85%;
 
             cursor: pointer;
             margin-left: 0vw;
@@ -63,13 +71,13 @@ export const ContentLeft = styled.div`
         }
 
         :nth-child(2){
-          width: 60%;
+          width: 70%;
           border-radius: 0 100px 100px 0;
 
           transition: 0.2s;
 
           :hover{
-            width: 70%;
+            width: 80%;
 
             cursor: pointer;
             margin-left: 0vw;
@@ -79,13 +87,13 @@ export const ContentLeft = styled.div`
         }
 
         :nth-child(3){
-          width: 90%;
+          width: 95%;
           border-radius: 0 100px 100px 0;
 
           transition: 0.2s;
 
           :hover{
-            width: 98%;
+            width: 100%;
 
             cursor: pointer;
             margin-left: 0vw;
@@ -95,13 +103,13 @@ export const ContentLeft = styled.div`
         }
 
         :last-child{
-          width: 70%;
+          width: 80%;
           border-radius: 0 100px 100px 0;
 
           transition: 0.2s;
 
           :hover{
-            width: 80%;
+            width: 90%;
             
             cursor: pointer;
             margin-left: 0vw;
