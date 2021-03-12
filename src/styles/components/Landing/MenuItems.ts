@@ -32,7 +32,7 @@ export const Wrapper = styled.div`
       
       li{
         width: 29rem;
-        height: 10rem;
+        height: 8rem;
         min-width: 25rem;
         margin-left: 1rem;
         border-radius: 4px;
