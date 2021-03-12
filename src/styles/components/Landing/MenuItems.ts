@@ -31,9 +31,9 @@ export const Wrapper = styled.div`
       justify-content: center;
       
       li{
-        width: 22rem;
-        min-width: 22rem;
-        height: 8rem;
+        width: 29rem;
+        height: 10rem;
+        min-width: 25rem;
         margin-left: 1rem;
         border-radius: 4px;
         border: 2px solid rgba(178, 139, 114, 0.5);
@@ -59,12 +59,16 @@ export const Wrapper = styled.div`
           p{
             width: 100%;
             height: 100%;
+            padding: 0rem 4rem;
 
             display: flex;
             align-items: center;
             justify-content: center;
 
             color: #d3a384;
+            font-size: 2.1rem;
+            text-align: center;
+            word-break: break-all;
             text-transform: uppercase;
             transform: skewX(10deg);
           }
