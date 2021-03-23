@@ -11,6 +11,7 @@ export default createGlobalStyle`
    }
   html{
       font-size: 62.5%;
+      transition: .3s;
     }
   
   @media (max-width: 1440px){
